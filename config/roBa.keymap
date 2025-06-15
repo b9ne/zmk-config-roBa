@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W         &kp E         &kp R                        &kp T                                                     &kp Y          &kp U  &lt 5 I    &kp O    &kp P
-&kp A      &kp S         &kp D         &kp F                        &kp G        &kp ESC                         &kp MINUS    &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z      &kp X         &kp C         &kp V                        &kp B        &kp SINGLE_QUOTE                &kp EQUAL    &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_SHIFT  &lt 2 SPACE  &lt_to_layer_0 3 LA(GRAVE)      &lt 1 ENTER  &kp BACKSPACE                             &kp DEL
+&kp Q      &kp W         &kp E         &kp R                        &kp T                                                          &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&kp A      &kp S         &kp D         &kp F                        &kp G                       &kp ESC               &kp MINUS    &kp H          &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z      &kp X         &kp C         &kp V                        &kp B                       &kp SINGLE_QUOTE      &kp EQUAL    &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_SHIFT  &lt_to_layer_0 3 LA(GRAVE)  &lt 2 SPACE           &lt 1 ENTER  &kp BACKSPACE                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&trans   &kp F7  &kp F8  &kp F9  &kp F10                         &kp PLUS      &kt KP_N7  &kp KP_N8  &kp KP_N9  &trans
-&trans   &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp MINUS  &kp ASTERISK  &kp KP_N4  &kp KP_N5  &kp KP_N6  &trans
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &kp EQUAL  &kp KP_N0     &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp SLASH
-&trans   &trans  &trans  &trans  &trans   &trans      &trans     &trans                                         &trans
+&trans   &kp F7  &kp F8  &kp F9  &kp F10                         &kp PLUS      &kp KP_NUMBER_7  &kp KP_N8  &kp KP_N9  &trans
+&trans   &kp F4  &kp F5  &kp F6  &kp F11  &trans      &kp MINUS  &kp ASTERISK  &kp KP_N4        &kp KP_N5  &kp KP_N6  &trans
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F12  &trans      &kp EQUAL  &kp KP_N0     &kp KP_N1        &kp KP_N2  &kp KP_N3  &kp SLASH
+&trans   &trans  &trans  &trans  &trans   &trans      &trans     &trans                                               &trans
             >;
         };
 
@@ -108,8 +108,8 @@
         MOUSE {
             bindings = <
 &to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &to_layer_0 U  &trans    &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &mkp MB1       &mkp MB2       &mkp MB1  &mkp MB2       &mkp MB3
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &mkp MB1  &mkp MB2       &mkp MB3
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &mkp MB1       &mkp MB1       &mkp MB1  &mkp MB2       &mkp MB3
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &mkp MB1       &mkp MB1       &mkp MB1  &mkp MB2       &mkp MB3
 &trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                 &trans
             >;
         };
